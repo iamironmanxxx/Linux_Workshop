@@ -1,0 +1,40 @@
+
+1. CERN
+2. Apache
+3. Boost Library
+4. Mozilla
+5. Classical Language Toolkit - Native Language Processing
+6. Fossasia
+Shell - Provides medium of communication from user to kernel
+Bash - It is a language- one of the shell languages
+Terminal - A program to reach the shell . An end point; an interface
+Enclosed in ang. brac. - compulsary
+Two or more flags can be used toogether if no input is needed.
+cat - contents of the file are shown in terminal.
+locate - to locate a file
+updatedb- to update database. To search for newly created files.
+sort - to get sorted output
+find command
+* - any no of chars
+--name - to search for name
+-f to search for files only
+-exec - a command to run on the output of find
+find . -name "tem*" -type f -exec grep "some" {} \;
+
+ls -l (permissions)
+directory-owner-group-others
+r- read
+w- write
+x- execute
+chmod:
+change permissions- chmod u+x <filename> //to grant exec. permission to user
+* ctrl + R :  reverse search- write phrases to get an old command
+* apropos -to find a particular keyword in man pages
+	apropos <keyword>
+*redirection : to redirect stdin and stdout
+	cat tmp.txt > shubh.txt
+	>> //appends to the existing file
+*piping :
+	ls | wc -w //otput of ls is input for wc -w (word count)
+ 	cat <filename> | grep "search_word" |sort
+	Eg. cat <filename> | java <classname>
