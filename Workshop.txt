@@ -37,4 +37,25 @@ change permissions- chmod u+x <filename> //to grant exec. permission to user
 *piping :
 	ls | wc -w //otput of ls is input for wc -w (word count)
  	cat <filename> | grep "search_word" |sort
-	Eg. cat <filename> | java <classname>
+//installations
+*dpkg //install .deb file
+*add-apt-repository <link> -to add repos
+	apt update
+*search for installing from source
+*environment variables - variables accessible within the whole system
+	env- view current environment variables
+	echo $<variable_name> to see its value
+ create variable <var_name>=value
+ for a particular terminal session:
+ export <var_name>=<value>
+*remove: unset <variable name>
+*permanently add  /home/user_name/.bashrc
+*scripting :
+	crate file : nano <filename>.sh
+	In nano: #!/bin/bash
+		 .....body...
+	chmod u+x <filename>.sh
+*input for example.sh ./example.sh abc def xyz
+
+	
+
