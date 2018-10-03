@@ -56,6 +56,16 @@ change permissions- chmod u+x <filename> //to grant exec. permission to user
 		 .....body...
 	chmod u+x <filename>.sh
 *input for example.sh ./example.sh abc def xyz
+*curl command : curl "<link>"
+		displays html content of link
+*curl "<link>" >> <filename>.html - saves in html file
+*curl -X GET /get request*/
+Eg. curl "https://pokeapi.co/api/v2/pokemon/pikachu/" | grep "weight" //to get weight of pikachu
+
+* scripting languages dont need to be compiled; executed by interpreter line by line
+* python is completely OO 
+* & is used after the command to put the process in background
+	Eg. python3 file1.py &	
 
 	
 
