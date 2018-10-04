@@ -17,5 +17,5 @@ print(b)
 b.remove(2) #removes first appearance of 2
 print(b)
 
-for x in z: #iterating a list
+for x in a: #iterating a list
 	print(x)
