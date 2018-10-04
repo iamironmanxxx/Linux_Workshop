@@ -66,6 +66,9 @@ Eg. curl "https://pokeapi.co/api/v2/pokemon/pikachu/" | grep "weight" //to get w
 * python is completely OO 
 * & is used after the command to put the process in background
 	Eg. python3 file1.py &	
+* from math import *
+	imports all from math
+*package is a collection of modules
 
 	
 
